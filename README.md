@@ -55,8 +55,7 @@ Proyek ini menunjukkan proses Extract, Transform, Load (ETL) dari sistem OLTP ke
 
 1. Clone repo ini:
     ```bash
-    git clone <URL_REPO>
-    cd <NAMA_REPO>
+    git clone https://github.com/PutraWhyra789/ETL_Gramedia_Test.git && cd ETL_Gramedia_Test
 
 2. Install dependensi:
     npm install
