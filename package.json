@@ -1,0 +1,15 @@
+{
+  "name": "gramedia-etl",
+  "version": "1.0.0",
+  "description": "ETL untuk OLTP Gramedia ke Data Warehouse (MySQL)",
+  "main": "ETL Layer/etl.js",
+  "scripts": {
+    "start": "node \"ETL Layer/etl.js\"",
+    "schema": "node \"Data Storage Layer/schema.js\"",
+    "seed": "node \"Data Storage Layer/seed.js\"",
+    "dev": "npm run schema && npm run seed && npm run start"
+  },
+  "dependencies": {
+    "mysql2": "^3.9.7"
+  }
+}
