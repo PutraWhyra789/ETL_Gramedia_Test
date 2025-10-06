@@ -31,10 +31,10 @@ Proyek ini menunjukkan proses Extract, Transform, Load (ETL) dari sistem OLTP ke
 - `sales`
 
 ### Relasi
-![Alt text](https://github.com/PutraWhyra789/ETL_Gramedia_Test/blob/51aa2a30d5dac4ddb48dc65cb662d1155cac58d7/Diagram/OLTP.png?raw=true)
+![OLTP](https://github.com/PutraWhyra789/ETL_Gramedia_Test/blob/51aa2a30d5dac4ddb48dc65cb662d1155cac58d7/Diagram/OLTP.png?raw=true)
 
 ## Skema DW (Star Schema)
-![Alt text](https://github.com/PutraWhyra789/ETL_Gramedia_Test/blob/51aa2a30d5dac4ddb48dc65cb662d1155cac58d7/Diagram/DimensionalModelling.png?raw=true)
+![Skema DW](https://github.com/PutraWhyra789/ETL_Gramedia_Test/blob/51aa2a30d5dac4ddb48dc65cb662d1155cac58d7/Diagram/DimensionalModelling.png?raw=true)
 
 ### Dimensi
 - `dim_time`
