@@ -7,17 +7,17 @@ Proyek ETL sederhana dari OLTP (Operational Database) ke DW (Data Warehouse) unt
 Proyek ini menunjukkan proses Extract, Transform, Load (ETL) dari sistem OLTP ke Data Warehouse menggunakan MySQL. OLTP mencakup transaksi penjualan, produk, pelanggan, dan karyawan. DW menggunakan star schema untuk keperluan analisis data.
 
 ## Struktur Folder
-├── Data Storage Layer/
-│ ├── schema.js # Membuat skema OLTP dan DW
-│ └── seed.js # Mengisi data dummy ke OLTP
-├── Diagram/
-│ ├── DimensionalModelling.png
-│ └── OLTP.png
-├── ETL Layer/
-│ └── etl.js # Proses ETL ke DW
-├── node_modules/
-├── package-lock.json
-├── package.json
+├── Data Storage Layer/ <br>
+│ ├── schema.js # Membuat skema OLTP dan DW <br>
+│ └── seed.js # Mengisi data dummy ke OLTP <br>
+├── Diagram/ <br>
+│ ├── DimensionalModelling.png <br>
+│ └── OLTP.png <br>
+├── ETL Layer/ <br>
+│ └── etl.js # Proses ETL ke DW <br>
+├── node_modules/ <br>
+├── package-lock.json <br>
+├── package.json <br>
 └── README.md
 
 ## Skema OLTP
@@ -31,10 +31,10 @@ Proyek ini menunjukkan proses Extract, Transform, Load (ETL) dari sistem OLTP ke
 - `sales`
 
 ### Relasi
-![Alt text]('Diagram\OLTP.png')
+![Alt text](https://github.com/PutraWhyra789/ETL_Gramedia_Test/blob/51aa2a30d5dac4ddb48dc65cb662d1155cac58d7/Diagram/OLTP.png?raw=true)
 
 ## Skema DW (Star Schema)
-![Alt text]('Diagram\DimensionalModelling.png')
+![Alt text](https://github.com/PutraWhyra789/ETL_Gramedia_Test/blob/51aa2a30d5dac4ddb48dc65cb662d1155cac58d7/Diagram/DimensionalModelling.png?raw=true)
 
 ### Dimensi
 - `dim_time`
